@@ -2,7 +2,7 @@
 title: 五月站点更新
 date: 2020-07-18 15:42:12
 tags: 优化,网站建设
-index_img: /img/index_img/19-may-update.jpeg
+index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/19-may-update.jpeg
 categories:
   - [Debug]
   - [技术, 网站建设]
