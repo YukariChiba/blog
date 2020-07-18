@@ -148,19 +148,24 @@ live2d:
   pluginJsPath: lib/ # JavaScript path related to plugin's root (Relative)
   pluginModelPath: assets/ # Relative model path related to plugin's root (Relative)
   scriptFrom: jsdelivr # jsdelivr CDN
-  # scriptFrom: unpkg # unpkg CDN
+  #scriptFrom: http
   tagMode: false
   log: false
   model:
+    scale: 0.85
     # use: live2d-widget-model-wanko # npm-module package name
     # use: wanko # folder name in (hexo base dir)/live2d_models/
     # use: ./wives/wanko # folder path relative to hexo base dir
     use: https://cdn.jsdelivr.net/npm/live2d-widget-model-hibiki@1.0.5/assets/hibiki.model.json # Your custom url
   display:
     position: left
-    width: 150
-    height: 300
+    width: 300
+    height: 600
+    vOffset: -200
   mobile:
     show: false
   react:
     opacity: 0.7
+  dialog: 
+    enable: true
+    hitokoto: true
