@@ -2,7 +2,7 @@
 title: 网络主权，独立性，以及方院士
 date: 2020-07-18 15:42:12
 tags: 网络
-index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/index_img/internet-and-fang.jpg
+index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/internet-and-fang.jpg
 categories:
 ---
 

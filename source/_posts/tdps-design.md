@@ -2,7 +2,7 @@
 title: 智（能）（避）障小车项目研究 基本思路
 date: 2020-07-18 15:42:12
 tags: TDPS
-index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/index_img/tdps-design.jpg
+index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/tdps-design.jpg
 categories:
   - [学习, 专业相关]
   - [学习, 项目相关]
@@ -22,26 +22,26 @@ TDPS (Team Design Project and Skills) 是我院一个特色课程，目标是让
 
 Patio 1：
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/tdps-design/patio1.jpg)
+![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/tdps-design/patio1.jpg)
 
 Patio 1全图
 
 *   跟随一条由两种不同材质形成的、有细微色差但难以分辨的地面寻线前进。
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/tdps-design/patio1_route.png)
+![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/tdps-design/patio1_route.png)
 
 第一部分的图片
 
 *   前进到某一个位置后，右转上和下一个接近30度的桥。
 *   过桥之后定位并通过宽度为50厘米的拱门。
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/tdps-design/patio1_gate.png)
+![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/tdps-design/patio1_gate.png)
 
 第三部分的图片
 
 Patio 2：
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/tdps-design/patio2.png)
+![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/tdps-design/patio2.png)
 
 *   从起点前进找到识别区，识别区域内放置的色块。
 *   根据识别到的颜色，寻找相应的色块的位置，并前往对应色块放置的位置。

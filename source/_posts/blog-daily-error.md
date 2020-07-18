@@ -2,7 +2,7 @@
 title: 日常翻车实录
 date: 2020-07-18 15:42:12
 tags: 翻车
-index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/index_img/blog-daily-error.jpeg
+index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/blog-daily-error.jpeg
 categories:
   - [Debug]
   - [技术, 网站建设]

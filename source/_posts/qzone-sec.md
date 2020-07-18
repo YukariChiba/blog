@@ -2,7 +2,7 @@
 title: QQ空间秘密查询脚本-小白版
 date: 2020-07-18 15:42:12
 tags: QQ空间,脚本
-index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/index_img/qzone-sec.jpg
+index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/qzone-sec.jpg
 categories:
 - ['学习','不务正业']
 - ['技术','编程','python']
