@@ -406,23 +406,23 @@ links:
       title: 'RainEggPlant',
       intro: '暂无描述',
       link: 'https://raineggplant.com',
-      image: '/img/layout/unknown.png'
+      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/layout/unknown.png'
     }
     - {
       title: 'P某的小博客',
       intro: '暂无描述',
       link: 'http://601b.codes',
-      image: '/img/layout/unknown.png'
+      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/layout/unknown.png'
     }
     - {
       title: '驱蚊器喵的插座',
       intro: '暂无描述',
       link: 'https://blog.meow.page',
-      image: '/img/layout/unknown.png'
+      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/layout/unknown.png'
     }
     - {
       title: 'Niconeico',
       intro: '暂无描述',
       link: 'https://mxpkx.com',
-      image: '/img/layout/unknown.png'
+      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/img/layout/unknown.png'
     }
