@@ -1,6 +1,6 @@
 ---
 title: 日常翻车实录
-date: 2020-07-18 15:42:12
+date: 2019-12-16 12:00:00
 tags: 翻车
 index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/blog-daily-error.jpeg
 categories:

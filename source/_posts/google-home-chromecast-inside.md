@@ -1,6 +1,6 @@
 ---
 title: 墙内使用Google Home和Chromecast
-date: 2020-07-18 15:42:12
+date: 2018-05-16 12:00:00
 tags: chromecast
 index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/google-home-chromecast-inside.jpg
 categories:
