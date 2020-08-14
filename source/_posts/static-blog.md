@@ -35,3 +35,6 @@ Netlify 相比 Github Pages 和 Cloudflare, 速度更快，而且支持绑定域
 
 安装插件后，在 `git push` 后，会自动触发 netlify 的构建。
 
+## 图片压缩
+
+由于懒得去手动调整图片大小，我使用了 Github Actions 对每次上传的图片自动进行压缩。
