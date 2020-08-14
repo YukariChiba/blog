@@ -1,7 +1,7 @@
 ---
 title: 'DN42系列外传 0x00 : 利用Nebula建立p2p网络'
 date: 2020-02-10 12:00:00
-tags: DN42, 网络
+tags: [DN42, 网络]
 index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/dn42-ext-0x00.jpeg
 categories:
   - [学习, 不务正业]
