@@ -4,18 +4,18 @@ date: 2020-07-18 14:58:22
 layout: about
 ---
 
-Student in MLCV / Programmer for NodeJS, Python, etc / Ingress Resistance / AS207268 NOC
+Data Miner / Programmer / Ingress Resistance / AS207268 NOC
 
-> ML & CV since 2020.
+🐑 • 🏳️‍🌈 • 🌃 • 🎀 • 🖥️
 
-> Network Engineering since 2019.
+> Minecraft Player _since 2012_
 
-> Web frontend since 2018.
+> Programmer _since 2013_
 
-> Android Dev since 2017.
+> Ingress Agent _since 2014_
 
-> Comm Engineering since 2016.
+> EE _since 2016_
 
-> Ingress Resistance since 2015.
+> Network Operator _since 2020_
 
-> Web Backend since 2015.
+> Data Mining _since 2020_

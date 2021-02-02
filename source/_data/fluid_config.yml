@@ -407,25 +407,31 @@ links:
   items:  # intro 与 image 可省略
     - {
       title: 'RainEggPlant',
-      intro: '暂无描述',
+      intro: '某位大佬',
       link: 'https://raineggplant.com',
-      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+      image: 'https://www.raineggplant.com/avatar/26fdc317e77802f1864f8b5b0933fb9a-112.jpg'
     }
     - {
-      title: 'P某的小博客',
-      intro: '暂无描述',
-      link: 'http://601b.codes',
-      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+      title: 'P某的备忘录',
+      intro: '科研大佬',
+      link: 'https://peterjin.top',
+      image: 'https://peterjin.top/images/avatar.png'
     }
     - {
       title: '驱蚊器喵的插座',
-      intro: '暂无描述',
+      intro: '某位大佬',
       link: 'https://blog.meow.page',
       image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
     }
     - {
       title: 'Niconeico',
-      intro: '暂无描述',
+      intro: '某位大佬',
       link: 'https://mxpkx.com',
-      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+      image: 'https://photo.mxpkx.com/images/2020/03/05/97b4b5c687353b199f8325dceb5df2ad.jpg'
+    }
+    - {
+      title: 'nonabyte',
+      intro: '⑨',
+      link: 'https://nonabyte.me',
+      image: 'https://nonabyte.me/images/avatar.png?v=1603108267507'
     }

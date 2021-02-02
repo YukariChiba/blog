@@ -101,24 +101,18 @@ deploy:
   type: ''
 
 feed:
-    limit: 20
-    order_by: "-date"
-    tag_dir: "tag"
-    category_dir: "category"
-    rss:
-        enable: true
-#        template: "themes/theme/layout/_alternate/rss.ejs"
-        output: "rss.xml"
-    atom:
-        enable: true
-#        template: "themes/theme/layout/_alternate/atom.ejs"
-        output: "atom.xml"
-    jsonFeed:
-        enable: true
-#        template: "themes/theme/layout/_alternate/json.ejs"
-        output: "feed.json"
-
-
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
 
 sitemap:
     path: sitemap.xml
