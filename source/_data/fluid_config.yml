@@ -425,13 +425,49 @@ links:
     }
     - {
       title: 'Niconeico',
-      intro: '某位大佬',
+      intro: '可爱的大佬',
       link: 'https://mxpkx.com',
       image: 'https://photo.mxpkx.com/images/2020/03/05/97b4b5c687353b199f8325dceb5df2ad.jpg'
     }
     - {
       title: 'nonabyte',
-      intro: '⑨',
+      intro: '可爱的⑨',
       link: 'https://nonabyte.me',
       image: 'https://nonabyte.me/images/avatar.png?v=1603108267507'
+    }
+    - {
+      title: 'LSC.MOE',
+      intro: '嗷呜～(咕咕咕',
+      link: 'https://lsc.moe',
+      image: 'https://image.lsc.moe/blog/about/1.jpg'
+    }
+    - {
+      title: 'Moecast Blog',
+      intro: '某位可爱大佬',
+      link: 'https://blog.cas7.moe',
+      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+    }
+    - {
+      title: 'JerryXiao',
+      intro: '某位大佬',
+      link: 'https://jerryxiao.dn42',
+      image: 'https://jerryxiao.cc/wp-content/uploads/2018/11/cropped-image_2018-11-29_15-31-30-192x192.png'
+    }
+    - {
+      title: 'YuetAu',
+      intro: '某位大佬',
+      link: 'https://yuetau.net',
+      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+    }
+    - {
+      title: 'Lan Tian @ Blog',
+      intro: '某位博客大佬',
+      link: 'https://lantian.pub',
+      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+    }
+    - {
+      title: 'Alanyhq',
+      intro: '某位大佬',
+      link: 'https://alanyhq.com',
+      image: 'https://alanyhq.com/assets/images/alanyhq.jpg'
     }
