@@ -378,9 +378,10 @@ about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.co
   subtitle: 关于 # 打字机内容
   avatar: /img/favicon.jpg # 头像
   name: Charles Yang
-  introduce: '可爱的男孩子' # 支持 HTML
+  introduce: '可爱的男孩子<br/>🐑 • 🏳️‍🌈 • 🌃 • 🎀 • 🖥️' # 支持 HTML
   icons: # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，class 代表图标的 css class
     - { class: 'iconfont icon-github-fill', link: 'https://github.com/SteveCharlesYang', tip: 'GitHub' }
+    - { class: 'iconfont icon-gitlab-fill', link: 'https://gitlab.com/YukariChiba', tip: 'GitLab' }
     - { class: 'iconfont icon-twitter-fill', link: 'https://twitter.com/Charle_Yang', tip: 'Twitter' }
     - { class: 'iconfont icon-telegram-fill', link: 'https://t.me/CharlesYang', tip: 'Telegram' }  # 添加 qrcode 后，点击不再跳转，而是悬浮二维码，需要指定 image
 
