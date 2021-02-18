@@ -2,7 +2,7 @@
 title: IFSolver 的原理解析
 date: 2020-08-14 12:00:00
 tags: [Python, Ingress, OpenCV]
-index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/ifsolver.jpg
+index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/ifsolver.jpg
 categories:
   - [技术]
 math: true
@@ -20,7 +20,7 @@ math: true
 
 IFS 的谜题图片是一个jpg（有时候是png）的彩色图片，其中包含了若干行列 Portal 的图像矩阵。
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/ifsolver/input.jpg)
+![](https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/ifsolver/input.jpg)
 
 我们将这个图像矩阵记为 $I$，对于第 $i$ 行 $j$ 列的图像记为 $I_{i,j}$
 
@@ -93,7 +93,7 @@ kp, des = detector.detectAndCompute(img, None)
 
 图中即为某个 Portal 图片提取到的特征点可视化预览。
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/ifsolver/orb.jpg)
+![](https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/ifsolver/orb.jpg)
 
 这里假设从第 $k$ 个图像中提取出的第 $l$ 个特征点为 $K_{k, l}$，则对于每个分割图像 $I_{i,j}$ 需要实现 
 
@@ -167,7 +167,7 @@ if (w*h > 40000):
 
 通过以上流程分割出的图像效果如下：
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/ifsolver/split.jpg)
+![](https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/ifsolver/split.jpg)
 
 可以从中发现，有些图像识别不完整，但完全不用担心，只要覆盖到了图像的大部分区域，就能匹配成功。
 
@@ -189,7 +189,7 @@ for idx, d in enumerate(dlist):
 
 通过对匹配出的特征点与总数的占比，可以得出一个置信度，并使用阈值判断每次匹配是否成功，以下是匹配的效果（Portal 的经纬度已经标注在上面）。
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/ifsolver/match.jpg)
+![](https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/ifsolver/match.jpg)
 
 ## 步骤五：依照坐标画图
 
@@ -201,7 +201,7 @@ $$ G_{i,j} = P_{i,j} / range(P_{i,:}) \cdot (640 - 2 L_{margin}) + L_{margin} $$
 
 然后根据置信度进行标注，最后将这些 Portal 连接，拼接成长图，就是 Passcode 了！
 
-![](https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/ifsolver/code.jpg)
+![](https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/ifsolver/code.jpg)
 
 效果如图。
 

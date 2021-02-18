@@ -2,8 +2,9 @@
 title: 网络主权，独立性，以及方院士
 date: 2018-05-10 12:00:00
 tags: 网络
-index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/internet-and-fang.jpg
+index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/internet-and-fang.jpg
 categories:
+  - [闲谈]
 ---
 
 前天方滨兴院士在我校有个讲座，遂有幸前去，并不完全赞同所谓网络主权的说法，但是作为一名深受审查制度和防火墙所害的普通学生，需要向这位防火墙之父要一个说法，同时也听听他对此的理解。

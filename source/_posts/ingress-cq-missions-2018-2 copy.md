@@ -2,7 +2,7 @@
 title: Ingress 重庆2.5日任务简评（上）
 date: 2019-01-02 12:00:00
 tags: Ingress
-index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/ingress-cq-missions-2018-1.jpg
+index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/ingress-cq-missions-2018-1.jpg
 categories:
   - [生活, 旅行]
 ---

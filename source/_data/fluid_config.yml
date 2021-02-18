@@ -179,7 +179,7 @@ scroll_top_arrow:  # 向顶部滚动的箭头
 # Index Page
 #---------------------------
 index:
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg  # 首页 Banner 头图，以下相同
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg  # 首页 Banner 头图，以下相同
   banner_img_height: 100  # 头图高度，屏幕百分比，available: 0 - 100
   banner_mask_alpha: 0.3  # 头图黑色蒙版的透明度，available: 0 - 1.0， 0 是完全透明（无蒙版），1 是完全不透明
   post_default_img: '' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
@@ -197,7 +197,7 @@ index:
 # 通过 hexo new page 命令创建的页面
 # Custom Page
 page:
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
 
@@ -206,7 +206,7 @@ page:
 # Post Page
 #---------------------------
 post:  # 部分配置同时控制自定义页面，注意备注
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 70  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   meta:  # 文章标题下方的信息
@@ -268,7 +268,7 @@ post:  # 部分配置同时控制自定义页面，注意备注
 # utterances
 # You can install utterances with https://utteranc.es/ and generate your configuration
 utterances:
-  repo: SteveCharlesYang/blog
+  repo: YukariChiba/blog
   issue_term: pathname
   label: utterances
   theme: preferred-color-scheme
@@ -333,7 +333,7 @@ livere:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容
@@ -343,7 +343,7 @@ archive:
 # Categories Page
 #---------------------------
 category:
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容
@@ -355,7 +355,7 @@ category:
 # Tags Page
 #---------------------------
 tag:
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 80  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容
@@ -372,7 +372,7 @@ tag:
 # About Page
 #---------------------------
 about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.com/docs/guide/#%E5%85%B3%E4%BA%8E%E9%A1%B5
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle: 关于 # 打字机内容
@@ -380,7 +380,7 @@ about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.co
   name: Charles Yang
   introduce: '可爱的男孩子<br/>🐑 • 🏳️‍🌈 • 🌃 • 🎀 • 🖥️' # 支持 HTML
   icons: # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，class 代表图标的 css class
-    - { class: 'iconfont icon-github-fill', link: 'https://github.com/SteveCharlesYang', tip: 'GitHub' }
+    - { class: 'iconfont icon-github-fill', link: 'https://github.com/YukariChiba', tip: 'GitHub' }
     - { class: 'iconfont icon-gitlab-fill', link: 'https://gitlab.com/YukariChiba', tip: 'GitLab' }
     - { class: 'iconfont icon-twitter-fill', link: 'https://twitter.com/Charle_Yang', tip: 'Twitter' }
     - { class: 'iconfont icon-telegram-fill', link: 'https://t.me/CharlesYang', tip: 'Telegram' }  # 添加 qrcode 后，点击不再跳转，而是悬浮二维码，需要指定 image
@@ -390,7 +390,7 @@ about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.co
 # 404 Page
 #---------------------------
 page404:
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 85  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle: 'Page not found'  # 打字机内容
@@ -401,7 +401,7 @@ page404:
 # Links Page
 #---------------------------
 links:
-  banner_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/default_bg.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容
@@ -422,7 +422,7 @@ links:
       title: '驱蚊器喵的插座',
       intro: '某位大佬',
       link: 'https://blog.meow.page',
-      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+      image: 'https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/unknown.png'
     }
     - {
       title: 'Niconeico',
@@ -446,7 +446,7 @@ links:
       title: 'Moecast Blog',
       intro: '某位可爱大佬',
       link: 'https://blog.cas7.moe',
-      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+      image: 'https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/unknown.png'
     }
     - {
       title: 'JerryXiao',
@@ -458,13 +458,13 @@ links:
       title: 'YuetAu',
       intro: '某位大佬',
       link: 'https://yuetau.net',
-      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+      image: 'https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/unknown.png'
     }
     - {
       title: 'Lan Tian @ Blog',
       intro: '某位博客大佬',
       link: 'https://lantian.pub',
-      image: 'https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/layout/unknown.png'
+      image: 'https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/unknown.png'
     }
     - {
       title: 'Alanyhq',

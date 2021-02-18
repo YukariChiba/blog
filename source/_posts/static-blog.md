@@ -2,7 +2,7 @@
 title: 博客静态迁移
 date: 2020-07-18 12:00:00
 tags: [优化,网站建设]
-index_img: https://cdn.jsdelivr.net/gh/SteveCharlesYang/blog@img/index_img/static-blog.png
+index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/static-blog.png
 categories:
   - [技术, 网站建设]
 ---
