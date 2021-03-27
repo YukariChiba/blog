@@ -378,7 +378,7 @@ about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.co
   subtitle: 关于 # 打字机内容
   avatar: /img/favicon.jpg # 头像
   name: Yukari Chiba
-  introduce: '可爱的男孩子<br/>🐑 • 🏳️‍🌈 • 🌃 • 🎀 • 🖥️' # 支持 HTML
+  introduce: '🐑 • 🏳️‍🌈 • 🌃 • 🎀 • 🖥️' # 支持 HTML
   icons: # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，class 代表图标的 css class
     - { class: 'iconfont icon-github-fill', link: 'https://github.com/YukariChiba', tip: 'GitHub' }
     - { class: 'iconfont icon-gitlab-fill', link: 'https://gitlab.com/YukariChiba', tip: 'GitLab' }
@@ -393,7 +393,7 @@ page404:
   banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 85  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
-  subtitle: 'Page not found'  # 打字机内容
+  subtitle: '呜呜呜，东西不见了（'  # 打字机内容
 
 
 #---------------------------
