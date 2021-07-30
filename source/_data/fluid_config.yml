@@ -905,7 +905,7 @@ links:
         title: "驱蚊器喵的插座",
         intro: "某位大佬",
         link: "https://blog.meow.page",
-        image: "https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/unknown.png",
+        image: "http://127.0.0.1"
       }
     - {
         title: "Niconeico",
@@ -929,7 +929,7 @@ links:
         title: "Moecast Blog",
         intro: "某位可爱大佬",
         link: "https://blog.cas7.moe",
-        image: "https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/unknown.png",
+        image: "http://127.0.0.1"
       }
     - {
         title: "JerryXiao",
@@ -941,13 +941,13 @@ links:
         title: "YuetAu's Space",
         intro: "某位大佬",
         link: "https://yuetau.net",
-        image: "https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/unknown.png",
+        image: "http://127.0.0.1"
       }
     - {
         title: "Lan Tian @ Blog",
         intro: "某位博客大佬",
         link: "https://lantian.pub",
-        image: "https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/unknown.png",
+        image: "http://127.0.0.1",
       }
     - {
         title: "Alanyhq",
