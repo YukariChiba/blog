@@ -5,7 +5,6 @@ tags: [Python, Ingress, OpenCV]
 index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/ifsolverr-0.jpg
 categories:
   - [技术]
-math: true
 ---
 
 > IFSolverR 是 [IFSolver](/ifsolver) 系列的改进，旨在有效应对官方的加扰手段，并增加可视化修正和鲁棒性。同时对老旧的代码结构进行调整。
