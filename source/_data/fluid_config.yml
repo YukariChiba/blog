@@ -986,6 +986,12 @@ links:
         link: "https://h3a.moe",
         avatar: "https://cdn.jsdelivr.net/gh/H3arn/h3a-moe-asset/img/myavatar.jpg",
       }
+    - {
+        title: "Billchenchina",
+        intro: "咕咕咕",
+        link: "https://billchen,bid",
+        avatar: "https://avatars.githubusercontent.com/u/7758042",
+      }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
