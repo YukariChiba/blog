@@ -61,7 +61,7 @@ code:
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
-      bg_color: false
+      bg_color: true
 
     prismjs:
       # 在下方链接页面右侧的圆形按钮挑选 style 填入，也可以直接填入 css 链接
@@ -980,7 +980,12 @@ links:
         link: "https://blog.baoshuo.ren/?utm_source=friends",
         avatar: "https://cdn.jsdelivr.net/npm/bsi@0.0.2/avatar-with-border/512x512.png",
       }
-
+    - {
+        title: "化猫の幻",
+        intro: "Pretending we're back where we started",
+        link: "https://h3a.moe",
+        avatar: "https://cdn.jsdelivr.net/gh/H3arn/h3a-moe-asset/img/myavatar.jpg",
+      }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
