@@ -992,6 +992,12 @@ links:
         link: "https://billchen.bid",
         avatar: "https://avatars.githubusercontent.com/u/7758042",
       }
+    - {
+        title: "Kusakabe Si"
+        intro: "某位萌新",
+        link: "https://www.kskb.eu.org/",
+        avatar: "https://avatars.githubusercontent.com/u/73118488",
+      }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
