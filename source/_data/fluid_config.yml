@@ -845,7 +845,7 @@ about:
   subtitle: 关于
   avatar: /img/favicon.jpg
   name: "Yukari Chiba"
-  intro: "🐑 • 🏳️‍🌈 • 🌃 • 🎀 • 🖥️"
+  intro: "🐑 • 🏳️‍⚧️  • 🌃 • 🎀 • 🖥️"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
@@ -997,6 +997,12 @@ links:
         intro: "某位萌新",
         link: "https://www.kskb.eu.org/",
         avatar: "https://avatars.githubusercontent.com/u/73118488",
+      }
+    - {
+        title: "365cent",
+        intro: "一个叫365的萌新",
+        link: "https://mx.sb",
+        avatar: "http://127.0.0.1"
       }
 
   # 当成员头像加载失败时，替换为指定图片

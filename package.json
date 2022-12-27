@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "hexo": "^5.4.0",
+    "hexo-filter-auto-spacing": "^0.2.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
