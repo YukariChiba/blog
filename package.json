@@ -9,25 +9,27 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "6.3.0"
   },
   "dependencies": {
-    "hexo": "^5.4.0",
-    "hexo-filter-auto-spacing": "^0.2.1",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
+    "hexo": "^6.3.0",
+    "hexo-all-minifier": "^0.5.7",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-seo-friendly-sitemap": "^0.0.25",
-    "hexo-generator-tag": "^1.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-seo-friendly-sitemap": "^0.2.1",
+    "hexo-generator-tag": "^2.0.0",
     "hexo-helper-live2d": "^3.1.1",
-    "hexo-inject": "^1.0.0",
-    "hexo-math": "^3.0.4",
-    "hexo-neat": "^1.0.8",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^2.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
+    "hexo-math": "^4.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
     "hexo-ruby-character-fix": "^0.0.1",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^3.0.0",
+    "hexo-theme-fluid": "1.9.4"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.3.1"
   }
 }
