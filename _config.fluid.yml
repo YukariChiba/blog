@@ -915,16 +915,10 @@ links:
         avatar: "https://www.raineggplant.com/avatar/26fdc317e77802f1864f8b5b0933fb9a-112.jpg",
       }
     - {
-        title: "P某的备忘录",
-        intro: "人事を尽くして天命を待つ！",
-        link: "https://peterjin.top",
-        avatar: "https://peterjin.top/images/avatar.png",
-      }
-    - {
         title: "驱蚊器喵的插座",
         intro: "某位大佬",
         link: "https://blog.meow.page",
-        avatar: "http://127.0.0.1"
+        avatar: "https://img.meow.page/avatar.jpg"
       }
     - {
         title: "Niconeico",
@@ -937,12 +931,6 @@ links:
         intro: "可爱的⑨",
         link: "https://nonabyte.me",
         avatar: "https://nonabyte.me/images/avatar.png?v=1603108267507",
-      }
-    - {
-        title: "LSC.MOE",
-        intro: "嗷呜～(咕咕咕",
-        link: "https://lsc.moe",
-        avatar: "https://image.lsc.moe/blog/about/1.jpg",
       }
     - {
         title: "Moecast Blog",
@@ -982,7 +970,7 @@ links:
       }
     - {
         title: "化猫の幻",
-        intro: "Pretending we're back where we started",
+        intro: "某位可爱大佬",
         link: "https://h3a.moe",
         avatar: "https://cdn.jsdelivr.net/gh/H3arn/h3a-moe-asset/img/myavatar.jpg",
       }
