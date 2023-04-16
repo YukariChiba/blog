@@ -5,6 +5,7 @@ tags: [春节]
 index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/lost-in-wuh.jpg
 categories:
   - [生活, 旅行]
+hide: true
 ---
 
 **这个家，注定是回不去的。**

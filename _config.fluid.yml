@@ -194,11 +194,11 @@ font:
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js:
   - /js/mouse_cursor.js
-  - /js/live2d.js
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
   - /css/live2d.css
+  - /css/transparent-topbar.css
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
 custom_head: ''
@@ -313,10 +313,16 @@ navbar:
       }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - {
-        key: "项目",
-        link: "https://projects.0x7f.cc",
-        icon: "iconfont icon-plan",
-      }
+      key: '项目',
+      icon: 'iconfont icon-plan',
+      link: '#',
+      submenu: [
+      { key: '项目列表', link: 'https://projects.0x7f.cc' },
+      { key: '无线电', link: 'https://radio.0x7f.cc' },
+      { key: '我的诉求', link: 'https://demands.0x7f.cc' },
+      { key: 'HRT 计数器', link: 'https://hrt.0x7f.cc' }
+      ]
+    }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" } # 友链
 
@@ -1000,8 +1006,8 @@ links:
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
   custom:
-    enable: false
-    content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://hexo.fluid-dev.com</li><li>图片：https://hexo.fluid-dev.com/img/favicon.png</li></ul>'
+    enable: true
+    content: '<hr><p>以任意方式联系可申请加入友链，按如下格式提供信息：</p><ul><li>博客名：喵喵喵</li><li>简介：喵喵喵</li><li>链接：https://meow.meow</li><li>图片：https://meow.meow/favicon.png</li></ul>'
 
   # 评论插件
   # Comment plugin
