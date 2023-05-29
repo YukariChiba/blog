@@ -24,6 +24,7 @@ categories:
 - [性别烦躁指南](https://genderdysphoria.fyi/zh/)
 - [MtF Wiki](https://mtf.wiki)
 - [潘柏林医生 | Bilibili](https://space.bilibili.com/2085711307)
+- [世界卫生组织 ICD-11 分类的对应项 (HA60)](https://icd.who.int/browse11/l-m/zh#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f90875286)
 
 ## 问答环节
 
