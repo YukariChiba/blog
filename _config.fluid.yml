@@ -998,6 +998,12 @@ links:
         link: "https://mx.sb",
         avatar: "http://127.0.0.1"
       }
+    - {
+        title: "Peter's Secluded Realm",
+        intro: "Yet another blog",
+        link: "https://www.petergam.top/",
+        avatar: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7ca79a53-dfa5-4bc8-bf83-16c026845450%2Favatar.jpg?table=collection&id=afbdacda-d0c6-4e45-a5ce-ae1bc5d3f2cf",
+      }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
