@@ -306,11 +306,6 @@ navbar:
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - {
-        key: "category",
-        link: "/categories/",
-        icon: "iconfont icon-category-fill",
-      }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - {
       key: '项目',
@@ -320,7 +315,8 @@ navbar:
       { key: '项目列表', link: 'https://projects.0x7f.cc' },
       { key: '无线电', link: 'https://radio.0x7f.cc' },
       { key: '我的诉求', link: 'https://demands.0x7f.cc' },
-      { key: 'HRT 计数器', link: 'https://hrt.0x7f.cc' }
+      { key: 'HRT 计数器', link: 'https://hrt.0x7f.cc' },
+      { key: 'CNValues', link: 'https://cnvalues.0x7f.cc' }
       ]
     }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
@@ -796,7 +792,7 @@ archive:
 # Category Page
 #---------------------------
 category:
-  enable: true
+  enable: false
   banner_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/layout/default_bg.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
@@ -1082,4 +1078,4 @@ static_prefix:
 
   twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.3.0/dist/
 
-  hint: /lib/hint/
+  #hint: /lib/hint/

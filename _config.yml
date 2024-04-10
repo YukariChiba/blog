@@ -147,4 +147,4 @@ live2d:
     opacity: 0.7
   dialog: 
     enable: true
-    hitokoto: true
+    hitokoto: false
