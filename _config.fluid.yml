@@ -316,7 +316,8 @@ navbar:
       { key: '无线电', link: 'https://radio.0x7f.cc' },
       { key: '我的诉求', link: 'https://demands.0x7f.cc' },
       { key: 'HRT 计数器', link: 'https://hrt.0x7f.cc' },
-      { key: 'CNValues', link: 'https://cnvalues.0x7f.cc' }
+      { key: 'CNValues', link: 'https://cnvalues.0x7f.cc' },
+      { key: '明信片', link: 'https://postcards.0x7f.cc' }
       ]
     }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
@@ -927,12 +928,6 @@ links:
         intro: "月がきれい!",
         link: "https://mxpkx.com",
         avatar: "https://photo.mxpkx.com/images/2020/03/05/97b4b5c687353b199f8325dceb5df2ad.jpg",
-      }
-    - {
-        title: "nonabyte",
-        intro: "可爱的⑨",
-        link: "https://nonabyte.me",
-        avatar: "https://nonabyte.me/images/avatar.png?v=1603108267507",
       }
     - {
         title: "Moecast Blog",
