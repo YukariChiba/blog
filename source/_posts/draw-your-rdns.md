@@ -9,7 +9,7 @@ categories:
 ---
 
 {% note info %}
-已在 http://draw.strexp.net 上线（由于 DNS 实现问题 ssl 证书未能成功申请）。
+已在 https://draw-list.strexp.net 上线。
 所有代码均在 https://github.com/YukariChiba/dnsdraw 中放出。
 {% endnote %}
 
