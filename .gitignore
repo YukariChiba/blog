@@ -7,3 +7,5 @@ public/
 .deploy*/
 
 source/img/*/*
+
+.yarn/
