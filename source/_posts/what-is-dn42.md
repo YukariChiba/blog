@@ -1,10 +1,11 @@
 ---
 title: 有关 DN42 的本质及诸多暴论
 date: 2026-01-29 00:00:00
-tags: 网络
+tags: [DN42, 网络]
 index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/what-is-dn42/map42.jpg
 categories:
   - [闲谈]
+  - [技术, 高端但没啥用, DN42]
 ---
 
 {% note warning %}

@@ -6,6 +6,7 @@ index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/dn42-ext-0
 categories:
   - [学习, 不务正业]
   - [技术, 高端但没啥用, DN42]
+hide: true
 ---
 
 [Nebula](https://github.com/slackhq/nebula/) 是 slack 开源的一款 p2p 网络工具，可以用以建立跨越 NAT、彼此互联的 Overlay Network。
