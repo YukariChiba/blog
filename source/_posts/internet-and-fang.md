@@ -2,7 +2,7 @@
 title: 网络主权，独立性，以及方院士
 date: 2018-05-10 12:00:00
 tags: 网络
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/internet-and-fang.jpg
+index_img: /img/index_img/internet-and-fang.jpg
 categories:
   - [闲谈]
 ---

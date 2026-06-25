@@ -2,7 +2,7 @@
 title: 新站点启用，以及一些小细节
 date: 2021-07-30 12:00:00
 tags: [优化, 网站建设]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/ewe-moe.jpg
+index_img: /img/index_img/ewe-moe.jpg
 categories:
   - [Debug]
   - [技术, 网站建设]

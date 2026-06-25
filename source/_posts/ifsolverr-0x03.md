@@ -2,7 +2,7 @@
 title: IFSolver Reloaded 系列 0x03：解码生成
 date: 2021-09-16 00:00:00
 tags: [Python, Ingress, OpenCV]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/ifsolverr-3.jpg
+index_img: /img/index_img/ifsolverr-3.jpg
 categories:
   - [技术]
 math: true

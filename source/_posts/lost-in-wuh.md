@@ -2,7 +2,7 @@
 title: 坐不上的飞机，回不去的家
 date: 2023-01-21 06:00:00
 tags: [春节]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/lost-in-wuh.jpg
+index_img: /img/index_img/lost-in-wuh.jpg
 categories:
   - [生活, 旅行]
 hide: true

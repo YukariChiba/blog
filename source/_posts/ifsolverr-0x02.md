@@ -2,7 +2,7 @@
 title: IFSolver Reloaded 系列 0x02：特征匹配
 date: 2021-08-19 00:00:00
 tags: [Python, Ingress, OpenCV]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/ifsolverr-2.jpg
+index_img: /img/index_img/ifsolverr-2.jpg
 categories:
   - [技术]
 math: true

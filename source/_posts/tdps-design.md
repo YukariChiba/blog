@@ -2,7 +2,7 @@
 title: 智（能）（避）障小车项目研究 基本思路
 date: 2019-05-26 12:00:00
 tags: TDPS
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/tdps-design.jpg
+index_img: /img/index_img/tdps-design.jpg
 categories:
   - [学习, 专业相关]
   - [学习, 项目相关]

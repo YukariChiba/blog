@@ -2,7 +2,7 @@
 title: 线香简评（持续更新）
 date: 2026-01-13 12:00:00
 tags: [生活]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/incense-review.jpg
+index_img: /img/index_img/incense-review.jpg
 categories:
   - [生活]
 ---

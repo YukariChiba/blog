@@ -2,7 +2,7 @@
 title: '在 rDNS 上念诗！（加强版）'
 date: 2025-08-13 12:00:00
 tags: [网络]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/draw-your-rdns.jpg
+index_img: /img/index_img/draw-your-rdns.jpg
 categories:
   - [学习, 不务正业]
   - [技术, 高端但没啥用]

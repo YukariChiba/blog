@@ -2,7 +2,7 @@
 title: IFSolver 的原理解析
 date: 2020-08-14 12:00:00
 tags: [Python, Ingress, OpenCV]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/ifsolver.jpg
+index_img: /img/index_img/ifsolver.jpg
 categories:
   - [技术]
 math: true

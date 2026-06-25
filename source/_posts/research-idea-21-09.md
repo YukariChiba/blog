@@ -2,7 +2,7 @@
 title: 科研随想 （21.09）
 date: 2021-09-17 00:00:00
 tags: []
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/research-idea-21-09.jpg
+index_img: /img/index_img/research-idea-21-09.jpg
 categories:
   - [学习, 专业相关]
 math: true
