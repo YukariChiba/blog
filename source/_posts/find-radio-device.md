@@ -2,7 +2,7 @@
 title: 杂牌对讲机的写频
 date: 2021-12-02 12:00:00
 tags: HAM
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/find-radio-device.jpg
+index_img: /img/index_img/find-radio-device.jpg
 categories:
 - ['学习','不务正业']
 - ['技术','Debug']

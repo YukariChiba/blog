@@ -2,7 +2,7 @@
 title: '美味冰淇淋的制作方法'
 date: 2025-10-09 12:00:00
 tags: [生活, 美食]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/icecream-first-try.jpg
+index_img: /img/index_img/icecream-first-try.jpg
 categories:
   - [生活, 美食]
 ---

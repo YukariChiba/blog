@@ -2,7 +2,7 @@
 title: IFSolver Reloaded 系列 0x00：总体结构
 date: 2021-07-29 00:00:00
 tags: [Python, Ingress, OpenCV]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/ifsolverr-0.jpg
+index_img: /img/index_img/ifsolverr-0.jpg
 categories:
   - [技术]
 ---

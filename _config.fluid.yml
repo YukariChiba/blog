@@ -10,7 +10,6 @@
 # You can get more detailed help from the guide
 #---------------------------
 
-
 #---------------------------
 # 全局
 # Global
@@ -201,7 +200,7 @@ custom_css:
   - /css/transparent-topbar.css
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
-custom_head: ''
+custom_head: ""
 
 # 自定义底部 HTML 内容（位于 footer 上方），注意不要和 `post: custom` 配置冲突
 # Customize the HTML content at the bottom (located above the footer), be careful not to conflict with `post: custom`
@@ -209,7 +208,7 @@ custom_html: '<canvas class="fireworks" style="position:fixed;left:0;top:0;z-ind
 
 # 网页访问统计
 # Analysis of website visitors
-web_analytics:  # 网页访问统计
+web_analytics: # 网页访问统计
   enable: true
 
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
@@ -237,7 +236,7 @@ web_analytics:  # 网页访问统计
   # 51.la 站点统计 ID
   # 51.la analytics
   # See: https://www.51.la/user/site/index
-  woyaola:  # 51.la 站点统计 ID，参见
+  woyaola: # 51.la 站点统计 ID，参见
 
   # 友盟/cnzz 站点统计 web_id
   # cnzz analytics
@@ -274,7 +273,6 @@ lazyload:
 # Icon library, which includes many social icons, does not include those theme dependent, so your can modify link by yourself. See: https://hexo.fluid-dev.com/docs/en/icon/
 iconfont: //at.alicdn.com/t/font_1736178_kmeydafke9r.css
 
-
 #---------------------------
 # 页头
 # Header
@@ -308,18 +306,19 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - {
-      key: '项目',
-      icon: 'iconfont icon-plan',
-      link: '#',
-      submenu: [
-      { key: '项目列表', link: 'https://projects.0x7f.cc' },
-      { key: '无线电', link: 'https://radio.0x7f.cc' },
-      { key: '我的诉求', link: 'https://demands.0x7f.cc' },
-      { key: 'HRT 计数器', link: 'https://hrt.0x7f.cc' },
-      { key: 'CNValues', link: 'https://cnvalues.0x7f.cc' },
-      { key: '明信片', link: 'https://postcards.0x7f.cc' }
-      ]
-    }
+        key: "项目",
+        icon: "iconfont icon-plan",
+        link: "#",
+        submenu:
+          [
+            { key: "项目列表", link: "https://projects.0x7f.cc" },
+            { key: "无线电", link: "https://radio.0x7f.cc" },
+            { key: "我的诉求", link: "https://demands.0x7f.cc" },
+            { key: "HRT 计数器", link: "https://hrt.0x7f.cc" },
+            { key: "CNValues", link: "https://cnvalues.0x7f.cc" },
+            { key: "明信片", link: "https://postcards.0x7f.cc" },
+          ],
+      }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" } # 友链
 
@@ -392,8 +391,7 @@ footer:
   content: '
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
-  '
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>'
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
@@ -422,7 +420,6 @@ footer:
     police_code: 12345678
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
-
 
 #---------------------------
 # 首页
@@ -496,7 +493,6 @@ index:
   post_sticky:
     enable: true
     icon: "iconfont icon-top"
-
 
 #---------------------------
 # 文章页
@@ -605,7 +601,7 @@ post:
     enable: true
     # 放大后图片链接替换规则，可用于将压缩图片链接替换为原图片链接，如 ['-slim', ''] 是将链接中 `-slim` 移除；如果想使用正则请使用 `re:` 前缀，如 ['re:\\d{3,4}\\/\\d{3,4}\\/', '']
     # The image url replacement when zooming, the feature can be used to replace the compressed image to the original image, eg: ['-slim', ''] removes `-slim` from the image url when zooming; if you want to use regular, use prefix `re:`, eg: ['re:\\d{3,4}\\/\\d{3,4}\\/','']
-    img_url_replace: ['', '']
+    img_url_replace: ["", ""]
 
   # 脚注语法，会在文章底部生成脚注，如果 Markdown 渲染器本身支持，则建议关闭，否则可能会冲突
   # Support footnote syntax, footnotes will be generated at the bottom of the post page. If the Markdown renderer itself supports it, please disable it, otherwise it may conflict
@@ -613,7 +609,7 @@ post:
     enable: true
     # 脚注的节标题，也可以在 front-matter 中通过 `footnote: <h2>Reference</h2>` 这种形式修改单独页面的 header
     # The section title of the footnote, you can also modify the header of a single page in the form of `footnote: <h2>Reference</h2>` in front-matter
-    header: ''
+    header: ""
 
   # 数学公式，开启之前需要更换 Markdown 渲染器，否则复杂公式会有兼容问题，具体请见：https://hexo.fluid-dev.com/docs/guide/##latex-数学公式
   # Mathematical formula. If enable, you need to change the Markdown renderer, see: https://hexo.fluid-dev.com/docs/en/guide/#math
@@ -634,14 +630,14 @@ post:
   mermaid:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `mermaid: true`
     # If you want to use mermaid on the custom page, you need to set `mermaid: true` in Front-matter
-    enable: false
+    enable: true
 
     # 开启后，只有在文章 Front-matter 里指定 `mermaid: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `mermaid: true` in Front-matter will enable mermaid, to load faster when the page does not contain mermaid
-    specific: false
+    specific: true
 
     # See: http://mermaid-js.github.io/mermaid/
-    options: { theme: 'default' }
+    options: { theme: "default" }
 
   # 评论插件
   # Comment plugin
@@ -651,7 +647,6 @@ post:
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo
     type: utterances
-
 
 #---------------------------
 # 评论插件
@@ -693,9 +688,9 @@ gitalk:
   clientSecret:
   repo:
   owner:
-  admin: ['name']
+  admin: ["name"]
   language: zh-CN
-  labels: ['Gitalk']
+  labels: ["Gitalk"]
   perPage: 10
   pagerDirection: last
   distractionFreeMode: false
@@ -716,7 +711,7 @@ valine:
   placeholder: 说点什么
   path: window.location.pathname
   avatar: retro
-  meta: ['nick', 'mail', 'link']
+  meta: ["nick", "mail", "link"]
   pageSize: 10
   lang: zh-CN
   highlight: false
@@ -728,18 +723,18 @@ valine:
 # Derived from Valine, with self-hosted service and new features
 # See: https://waline.js.org/
 waline:
-  serverURL: ''
+  serverURL: ""
   placeholder: 说点什么
   path: window.location.pathname
   avatar: retro
-  meta: ['nick', 'mail', 'link']
+  meta: ["nick", "mail", "link"]
   pageSize: 10
   lang: zh-CN
   highlight: true
   avatarCDN:
   avatarForce: false
   requiredFields: []
-  emojiCDN: ''
+  emojiCDN: ""
   emojiMaps: {}
   anonymous:
 
@@ -748,15 +743,15 @@ waline:
 # Based on third-party service, insufficient support for regions outside China
 # http://changyan.kuaizhan.com
 changyan:
-  appid: ''
-  appkey: ''
+  appid: ""
+  appkey: ""
 
 # 来必力 Livere
 # 基于第三方的服务
 # Based on third-party service
 # See: https://www.livere.com
 livere:
-  uid: ''
+  uid: ""
 
 # Remark42
 # 需要自托管服务端
@@ -787,7 +782,6 @@ archive:
   banner_mask_alpha: 0.3
   subtitle:
 
-
 #---------------------------
 # 分类页
 # Category Page
@@ -817,7 +811,6 @@ category:
   # The maximum number of posts in a single category. If the limit is exceeded, it will be displayed More. If 0 no limit
   post_limit: 10
 
-
 #---------------------------
 # 标签页
 # Tag Page
@@ -834,7 +827,6 @@ tag:
     unit: px
     start_color: "#BBBBEE"
     end_color: "#337ab7"
-
 
 #---------------------------
 # 关于页
@@ -885,7 +877,6 @@ page:
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
-
 #---------------------------
 # 404页
 # 404 Page
@@ -896,7 +887,6 @@ page404:
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "呜呜呜，东西不见了（"
-
 
 #---------------------------
 # 友链页
@@ -921,7 +911,7 @@ links:
         title: "驱蚊器喵的插座",
         intro: "某位大佬",
         link: "https://blog.meow.page",
-        avatar: "https://img.meow.page/avatar.jpg"
+        avatar: "https://img.meow.page/avatar.jpg",
       }
     - {
         title: "Niconeico",
@@ -933,7 +923,7 @@ links:
         title: "Moecast Blog",
         intro: "某位可爱大佬",
         link: "https://blog.cas7.moe",
-        avatar: "http://127.0.0.1"
+        avatar: "http://127.0.0.1",
       }
     - {
         title: "JerryXiao",
@@ -945,7 +935,7 @@ links:
         title: "YuetAu's Space",
         intro: "某位大佬",
         link: "https://yuetau.net",
-        avatar: "http://127.0.0.1"
+        avatar: "http://127.0.0.1",
       }
     - {
         title: "Lan Tian @ Blog",
@@ -987,7 +977,7 @@ links:
         title: "365cent",
         intro: "一个叫365的萌新",
         link: "https://mx.sb",
-        avatar: "http://127.0.0.1"
+        avatar: "http://127.0.0.1",
       }
     - {
         title: "Peter's Secluded Realm",
@@ -1004,7 +994,7 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: '<hr><p>以任意方式联系可申请加入友链，按如下格式提供信息：</p><ul><li>博客名：喵喵喵</li><li>简介：喵喵喵</li><li>链接：https://meow.meow</li><li>图片：https://meow.meow/favicon.png</li></ul>'
+    content: "<hr><p>以任意方式联系可申请加入友链，按如下格式提供信息：</p><ul><li>博客名：喵喵喵</li><li>简介：喵喵喵</li><li>链接：https://meow.meow</li><li>图片：https://meow.meow/favicon.png</li></ul>"
 
   # 评论插件
   # Comment plugin
@@ -1014,7 +1004,6 @@ links:
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo
     type: disqus
-
 
 #---------------------------
 # 以下是配置 JS CSS 等静态资源的 URL 前缀，可以自定义成 CDN 地址，

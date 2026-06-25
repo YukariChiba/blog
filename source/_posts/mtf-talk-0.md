@@ -2,7 +2,7 @@
 title: 木桶饭杂谈 其一
 date: 2023-04-17 00:00:00
 tags: [MtF, 跨性别者]
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/mtf-talk-0.png
+index_img: /img/index_img/mtf-talk-0.png
 categories:
   - [生活]
 ---

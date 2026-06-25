@@ -2,7 +2,7 @@
 title: 一场有关数字世界自决权的战争
 date: 2025-09-10 12:00:00
 tags: 网络
-index_img: https://cdn.jsdelivr.net/gh/YukariChiba/blog@img/index_img/digital-autonomy-war.jpg
+index_img: /img/index_img/digital-autonomy-war.jpg
 categories:
   - [闲谈]
 ---

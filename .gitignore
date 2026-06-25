@@ -6,6 +6,4 @@ node_modules/
 public/
 .deploy*/
 
-source/img/*/*
-
 .yarn/
