@@ -271,7 +271,9 @@ source:             DN42
 
 ### 安装基础环境
 
-Debian 官方仓库提供了非常完善的 Asterisk 打包，无需手动编译。
+Debian / Ubuntu / Alpine 官方仓库均提供了非常完善的 Asterisk 打包，无需手动编译即可安装。此外，通过 `docker` 或 `podman` 也可运行 Asterisk 容器。
+
+> 注意 Debian 只在 `sid` 仓库打包了完整版本的 Asterisk，如果使用 `trixie` 等版本需要手动指定从 `sid` 仓库安装。
 
 ```bash
 # 安装 Asterisk 核心组件
