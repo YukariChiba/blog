@@ -1243,7 +1243,7 @@ same => n(sms),MessageSend(pjsip:${EXTEN})
 same => n,Hangup()
 ```
 
-此时如果配置了 CDR，可以看到有一条 CallerID 为空的呼叫被发往了 `Message/ast_msg_queue` Endpoint。因为 SIP Message 并不是常规的通话，Asterisk 不会为其创建标准 SIP 通道，所有 out-of-dialog 的 SIP Message 都会使用这个特殊的伪通道来解码和传递数据。
+此时如果配置了 CDR，可以看到有一条 CallerID 为空的呼叫被发往了 `Message/ast_msg_queue` Endpoint。因为 SIP Message 并不是常规的通话，Asterisk 不会为其创建标准 SIP 通道，所有 out-of-dialog 的 SIP Message 都会使用这个特殊的伪通道来解码和传递数据。为了沿用 ENUM 反向验证逻辑验证 SIP Message 的来源，此时可以通过 `${MESSAGE_DATA(PJSIP_RECVADDR)}` 获取远端 IP + 端口，并截取 `MESSAGE(from)` 中的号码一并送去验证。
 
 > 在非最新最热版本的 Asterisk 上转发 SIP Message 可能会出现 `not a valid SIP/SIPS URI` 报错，这是[已知问题](https://github.com/asterisk/asterisk/issues/1357)，请手动调整 URI 或等待版本更新。
 
