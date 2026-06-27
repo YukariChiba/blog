@@ -18,7 +18,7 @@ hexo.extend.filter.register("after_render:html", function (htmlContent, data) {
     description: config.description,
   };
 
-  jsonScript = `${wrapScriptTag(jsonLdWebsite)}\n${jsonScript}`;
+  jsonScript = `${wrapScriptTag(jsonLdWebsite)}${jsonScript}`;
 
   let jsonLdPerson = {
     "@context": "https://schema.org",
@@ -34,7 +34,7 @@ hexo.extend.filter.register("after_render:html", function (htmlContent, data) {
     sameAs: ["https://t.me/YukariChiba", "https://github.com/YukariChiba"],
   };
 
-  jsonScript = `${wrapScriptTag(jsonLdPerson)}\n${jsonScript}`;
+  jsonScript = `${wrapScriptTag(jsonLdPerson)}${jsonScript}`;
 
   if (page.layout === "post") {
     jsonLdArticle = {
@@ -58,7 +58,7 @@ hexo.extend.filter.register("after_render:html", function (htmlContent, data) {
       },
     };
 
-    jsonScript = `${wrapScriptTag(jsonLdArticle)}\n${jsonScript}`;
+    jsonScript = `${wrapScriptTag(jsonLdArticle)}${jsonScript}`;
   }
 
   return htmlContent.replace("</head>", jsonScript);
