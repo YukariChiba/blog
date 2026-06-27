@@ -18,7 +18,7 @@
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^4.0.0",
     "hexo-generator-index": "^4.0.0",
-    "hexo-generator-seo-friendly-sitemap": "^0.2.1",
+    "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-helper-live2d": "^3.1.1",
     "hexo-math": "^5.0.0",

@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '0x7f Blog'
-subtitle: '如无必要，勿增实体'
-description: '某个不知名的小博客，偶尔更新。'
+title: "0x7f Blog"
+subtitle: "如无必要，勿增实体"
+description: "某个不知名的小博客，偶尔更新。"
 keywords: CharlesYang,0x7f,blog,博客,Yukari,YukariChiba
 author: YukariChiba
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: "Asia/Shanghai"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -38,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -48,7 +48,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 
@@ -57,7 +57,7 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -98,7 +98,7 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: ""
 
 feed:
   enable: true
@@ -108,16 +108,19 @@ feed:
   hub:
   content:
   content_limit: 140
-  content_limit_delim: ' '
+  content_limit_delim: " "
   order_by: -date
   icon: icon.png
   autodiscovery: true
   template:
 
 sitemap:
-    path: sitemap.xml
-    tag: false
-    category: false
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  rel: true
+  tags: false
+  categories: false
 
 all_minifier: true
 
@@ -145,6 +148,6 @@ live2d:
     show: false
   react:
     opacity: 0.7
-  dialog: 
+  dialog:
     enable: true
     hitokoto: false

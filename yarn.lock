@@ -821,14 +821,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bluebird@npm:3.5.4":
-  version: 3.5.4
-  resolution: "bluebird@npm:3.5.4"
-  checksum: 10c0/da56fa52ebe2c666960104d5a2f95a336f01b940cd95176cbc30d4e54826816327a52da3938779e71c02660375227b531e145f377abb9b6e3a32da9929694d58
-  languageName: node
-  linkType: hard
-
-"bluebird@npm:^3.5.1, bluebird@npm:^3.5.3, bluebird@npm:^3.5.5, bluebird@npm:^3.7.2":
+"bluebird@npm:^3.5.1, bluebird@npm:^3.5.2, bluebird@npm:^3.5.3, bluebird@npm:^3.5.5, bluebird@npm:^3.7.2":
   version: 3.7.2
   resolution: "bluebird@npm:3.7.2"
   checksum: 10c0/680de03adc54ff925eaa6c7bb9a47a0690e8b5de60f4792604aae8ed618c65e6b63a7893b57ca924beaf53eee69c5af4f8314148c08124c550fe1df1add897d2
@@ -1115,7 +1108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camel-case@npm:^4.1.1, camel-case@npm:^4.1.2":
+"camel-case@npm:^4.0.0, camel-case@npm:^4.1.1, camel-case@npm:^4.1.2":
   version: 4.1.2
   resolution: "camel-case@npm:4.1.2"
   dependencies:
@@ -2069,7 +2062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domhandler@npm:^4.2.0, domhandler@npm:^4.3.1":
+"domhandler@npm:^4.2.0, domhandler@npm:^4.2.2, domhandler@npm:^4.3.1":
   version: 4.3.1
   resolution: "domhandler@npm:4.3.1"
   dependencies:
@@ -2223,13 +2216,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ejs@npm:2.6.1":
-  version: 2.6.1
-  resolution: "ejs@npm:2.6.1"
-  checksum: 10c0/156a56b09f8d53c15485366994c7e8c730e8b822e086c3e9bea887f66d3759e5d1ce06337aa66caeba91f3ee886b4e488d6405cf1d470ad2e0c011181443ec62
-  languageName: node
-  linkType: hard
-
 "ejs@npm:^3.1.6":
   version: 3.1.10
   resolution: "ejs@npm:3.1.10"
@@ -2308,6 +2294,13 @@ __metadata:
   version: 2.2.0
   resolution: "entities@npm:2.2.0"
   checksum: 10c0/7fba6af1f116300d2ba1c5673fc218af1961b20908638391b4e1e6d5850314ee2ac3ec22d741b3a8060479911c99305164aed19b6254bde75e7e6b1b2c3f3aa3
+  languageName: node
+  linkType: hard
+
+"entities@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "entities@npm:3.0.1"
+  checksum: 10c0/2d93f48fd86de0b0ed8ee34456aa47b4e74a916a5e663cfcc7048302e2c7e932002926daf5a00ad6d5691e3c90673a15d413704d86d7e1b9532f9bc00d975590
   languageName: node
   linkType: hard
 
@@ -3675,17 +3668,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo-generator-seo-friendly-sitemap@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "hexo-generator-seo-friendly-sitemap@npm:0.2.1"
+"hexo-generator-sitemap@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "hexo-generator-sitemap@npm:3.0.1"
   dependencies:
-    bluebird: "npm:3.5.4"
-    ejs: "npm:2.6.1"
-    lodash: "npm:4.17.12"
-    moment: "npm:2.24.0"
-    pretty-data: "npm:0.40.0"
-    url-join: "npm:4.0.0"
-  checksum: 10c0/cda38d6532ccea4d394dcf8223bbabc758e87c056e1808f6655e76692167f7dcd4460a02d8a0bbe87df97ac37978103959a0317392451fd376736cf9989ab965
+    hexo-util: "npm:^2.1.0"
+    micromatch: "npm:^4.0.2"
+    nunjucks: "npm:^3.1.6"
+  checksum: 10c0/0c1f0fc67f88019c5be368bcc7aeab1212e955f654f4b08f63e04e79a5c2a3bec90a3b28aec8061b493e1def4a4da6ca236ecf78afe960adec8b667e7921c09c
   languageName: node
   linkType: hard
 
@@ -3827,7 +3817,7 @@ __metadata:
     hexo-generator-category: "npm:^2.0.0"
     hexo-generator-feed: "npm:^4.0.0"
     hexo-generator-index: "npm:^4.0.0"
-    hexo-generator-seo-friendly-sitemap: "npm:^0.2.1"
+    hexo-generator-sitemap: "npm:^3.0.1"
     hexo-generator-tag: "npm:^2.0.0"
     hexo-helper-live2d: "npm:^3.1.1"
     hexo-math: "npm:^5.0.0"
@@ -3862,6 +3852,22 @@ __metadata:
     prismjs: "npm:^1.29.0"
     strip-indent: "npm:^3.0.0"
   checksum: 10c0/57fbd4cedf4153e8e6a7e96f5e91e6e45c0ec622cac03fa7a973c8beb1087e1cfe53fb34826bb6818aaec98ab9bbe4c6ecffc69acbd0dc3b8c120c7dfe7455aa
+  languageName: node
+  linkType: hard
+
+"hexo-util@npm:^2.1.0":
+  version: 2.7.0
+  resolution: "hexo-util@npm:2.7.0"
+  dependencies:
+    bluebird: "npm:^3.5.2"
+    camel-case: "npm:^4.0.0"
+    cross-spawn: "npm:^7.0.0"
+    deepmerge: "npm:^4.2.2"
+    highlight.js: "npm:^11.0.1"
+    htmlparser2: "npm:^7.0.0"
+    prismjs: "npm:^1.17.1"
+    strip-indent: "npm:^3.0.0"
+  checksum: 10c0/4286546b9879264db5179b7ce6d28bb04053ea4516f105b916f1a88c81e85123bdcedf72b70e21f03f44a30290f1249c25f26e5f92f8ecc4cb0ac8b90dc3d2e9
   languageName: node
   linkType: hard
 
@@ -3913,7 +3919,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"highlight.js@npm:^11.6.0":
+"highlight.js@npm:^11.0.1, highlight.js@npm:^11.6.0":
   version: 11.11.1
   resolution: "highlight.js@npm:11.11.1"
   checksum: 10c0/40f53ac19dac079891fcefd5bd8a21cf2e8931fd47da5bd1dca73b7e4375c1defed0636fc39120c639b9c44119b7d110f7f0c15aa899557a5a1c8910f3c0144c
@@ -3962,6 +3968,18 @@ __metadata:
     domutils: "npm:^3.2.1"
     entities: "npm:^6.0.0"
   checksum: 10c0/47cfa37e529c86a7ba9a1e0e6f951ad26ef8ca5af898ab6e8916fa02c0264c1453b4a65f28b7b8a7f9d0d29b5a70abead8203bf8b3f07bc69407e85e7d9a68e4
+  languageName: node
+  linkType: hard
+
+"htmlparser2@npm:^7.0.0":
+  version: 7.2.0
+  resolution: "htmlparser2@npm:7.2.0"
+  dependencies:
+    domelementtype: "npm:^2.0.1"
+    domhandler: "npm:^4.2.2"
+    domutils: "npm:^2.8.0"
+    entities: "npm:^3.0.1"
+  checksum: 10c0/7e1fa7f3b2635f2a1c5272765e25aab33b241d84a43e9d27f28a0b7166b51a8025dec40a6a29af38d6a698a2f1d2983cb43e5c61d4e07ec5aa9df672a7460e16
   languageName: node
   linkType: hard
 
@@ -5033,13 +5051,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.17.12":
-  version: 4.17.12
-  resolution: "lodash@npm:4.17.12"
-  checksum: 10c0/e4fe3c6fd73b03c153bb64e461746a62ce12ea35525078accbab2dfa8c69c4659c7ae280bcb4001e7b61b4facfde0dd8c1b3d2f7c7e5b7f2d7ea67fc52be3e35
-  languageName: node
-  linkType: hard
-
 "lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.2.0, lodash@npm:^4.3.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
@@ -5340,7 +5351,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.8":
+"micromatch@npm:^4.0.2, micromatch@npm:^4.0.8":
   version: 4.0.8
   resolution: "micromatch@npm:4.0.8"
   dependencies:
@@ -5703,13 +5714,6 @@ __metadata:
   dependencies:
     moment: "npm:^2.29.4"
   checksum: 10c0/ab14ec9d94bc33f29ac18e5417b7f8aca0b17130b952c5cc9697b8fea839e5ece9313af5fd3c9703a05db472b1560ddbfc7ad2aa24aac9afd047d6da6c3c6033
-  languageName: node
-  linkType: hard
-
-"moment@npm:2.24.0":
-  version: 2.24.0
-  resolution: "moment@npm:2.24.0"
-  checksum: 10c0/d05b8c6d38989d9fa4f13bd108110c4ff01c94c83e4eb438fabed608c1bb83582f13fed5902a301d51c8ddb94935bc82fabc684069f169f05966d2011b01e09b
   languageName: node
   linkType: hard
 
@@ -6212,7 +6216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nunjucks@npm:^3.2.4":
+"nunjucks@npm:^3.1.6, nunjucks@npm:^3.2.4":
   version: 3.2.4
   resolution: "nunjucks@npm:3.2.4"
   dependencies:
@@ -6949,13 +6953,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-data@npm:0.40.0":
-  version: 0.40.0
-  resolution: "pretty-data@npm:0.40.0"
-  checksum: 10c0/31fabdca8d2b8197c05d1caa33ed89e6b7199330937de919481d7bc6b3a3fd935e5462998821370eee62e7d198f45c25ddbdc7dada78368e277afeb3baa699db
-  languageName: node
-  linkType: hard
-
 "pretty-hrtime@npm:^1.0.3":
   version: 1.0.3
   resolution: "pretty-hrtime@npm:1.0.3"
@@ -6963,7 +6960,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prismjs@npm:^1.29.0":
+"prismjs@npm:^1.17.1, prismjs@npm:^1.29.0":
   version: 1.30.0
   resolution: "prismjs@npm:1.30.0"
   checksum: 10c0/f56205bfd58ef71ccfcbcb691fd0eb84adc96c6ff21b0b69fc6fdcf02be42d6ef972ba4aed60466310de3d67733f6a746f89f2fb79c00bf217406d465b3e8f23
@@ -8852,13 +8849,6 @@ __metadata:
   version: 0.1.0
   resolution: "urix@npm:0.1.0"
   checksum: 10c0/264f1b29360c33c0aec5fb9819d7e28f15d1a3b83175d2bcc9131efe8583f459f07364957ae3527f1478659ec5b2d0f1ad401dfb625f73e4d424b3ae35fc5fc0
-  languageName: node
-  linkType: hard
-
-"url-join@npm:4.0.0":
-  version: 4.0.0
-  resolution: "url-join@npm:4.0.0"
-  checksum: 10c0/1aa466cfa128adab76dc9e559b38e2171df51e6105b5773382c3726e5a29971da013e4f9f5c36f1414ef1e5f1af535cfaf29611b53b0d2fc4f311f7b41199d13
   languageName: node
   linkType: hard
 
