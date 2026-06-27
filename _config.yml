@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "0x7f Blog"
+title: "0x7f Blog | Yukari Chiba 博客"
 subtitle: "如无必要，勿增实体"
-description: "某个不知名的小博客，偶尔更新。"
-keywords: CharlesYang,0x7f,blog,博客,Yukari,YukariChiba
-author: YukariChiba
+description: "Yukari Chiba 的某个不知名小博客，偶尔更新。主要涉及网络、技术、开源与生活。"
+keywords: 0x7f,blog,博客,Yukari,YukariChiba
+author: Yukari Chiba
 language: zh-CN
 timezone: "Asia/Shanghai"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://0x7f.cc
+url: https://0x7f.cc
 root: /
 permalink: :title/
 permalink_defaults:
